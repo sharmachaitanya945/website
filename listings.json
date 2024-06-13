@@ -6,9 +6,16 @@
     ]
   },
   {
+    "listing": "/talks/fine_tuning/index.html",
+    "items": [
+      "/talks/fine_tuning/mistral_ft_sophia.html"
+    ]
+  },
+  {
     "listing": "/talks/index.html",
     "items": [
-      "/talks/applications/index.html"
+      "/talks/applications/index.html",
+      "/talks/fine_tuning/index.html"
     ]
   }
 ]
