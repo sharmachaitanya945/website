@@ -28,11 +28,11 @@
     "text": "Chapters\n00:00 Introduction\nSophia Yang introduces herself and provides an overview of the talk, which will cover Mistral models, their fine-tuning API, and demos.\n0:35 Mistral’s History and Model Offerings\nSophia discusses Mistral’s history, from their founding to the release of various models, including open-source and enterprise-grade models, as well as specialized models like CodeStraw.\n02:52 Customization and Fine-Tuning\nMistral recently released a fine-tuning codebase and API, allowing users to customize their models using LoRa fine-tuning. Sophia compares the performance of LoRa fine-tuning to full fine-tuning.\n04:22 Prompting vs. Fine-Tuning\nSophia discusses the advantages and use cases for prompting and fine-tuning, emphasizing the importance of considering prompting before fine-tuning for specific tasks.\n05:35 Fine-Tuning Demos\nSophia demonstrates how to use fine-tuned models shared by colleagues, as well as models fine-tuned on specific datasets like research paper abstracts and medical chatbots.\n10:57 Developer Examples and Real-World Use Cases\nSophia showcases real-world examples of startups and developers using Mistral’s fine-tuning API for various applications, such as information retrieval, medical domain, and legal co-pilots.\n12:09 Using Mistral’s Fine-Tuning API\nSophia walks through an end-to-end example of using Mistral’s Fine-Tuning API on a custom dataset, including data preparation, uploading, creating fine-tuning jobs, and using the fine-tuned model.\n19:10 Open-Source Fine-Tuning with Mistral\nSophia demonstrates how to fine-tune Mistral models using their open-source codebase, including installing dependencies, preparing data, and running the training process locally."
   },
   {
-    "objectID": "talks/fine_tuning/mistral_ft_sophia.html#links",
-    "href": "talks/fine_tuning/mistral_ft_sophia.html#links",
+    "objectID": "talks/fine_tuning/mistral_ft_sophia.html#resources",
+    "href": "talks/fine_tuning/mistral_ft_sophia.html#resources",
     "title": "Best Practices For Fine Tuning Mistral",
-    "section": "Links",
-    "text": "Links\nLinks to resources mentioned in the talk:\n\nmistral-finetune is a light-weight codebase that enables memory-efficient and performant finetuning of Mistral’s models.: mistral-finetune\nExample notebook\nFine-Tuning guide\nSpaces in the prompt templates for different versions of Mistral: tweet\nMistral Inference guide."
+    "section": "Resources",
+    "text": "Resources\nLinks to resources mentioned in the talk:\n\nmistral-finetune is a light-weight codebase that enables memory-efficient and performant finetuning of Mistral’s models.: mistral-finetune\nExample notebook\nFine-Tuning guide\nSpaces in the prompt templates for different versions of Mistral: tweet\nMistral Inference guide."
   },
   {
     "objectID": "talks/fine_tuning/mistral_ft_sophia.html#full-transcript",
