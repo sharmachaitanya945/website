@@ -6,6 +6,12 @@
     ]
   },
   {
+    "listing": "/talks/rag/index.html",
+    "items": [
+      "/talks/rag/ben.html"
+    ]
+  },
+  {
     "listing": "/talks/fine_tuning/index.html",
     "items": [
       "/talks/fine_tuning/mistral_ft_sophia.html"
@@ -15,7 +21,8 @@
     "listing": "/talks/index.html",
     "items": [
       "/talks/applications/index.html",
-      "/talks/fine_tuning/index.html"
+      "/talks/fine_tuning/index.html",
+      "/talks/rag/index.html"
     ]
   }
 ]
