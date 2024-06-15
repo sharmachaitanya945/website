@@ -133,6 +133,13 @@
     "text": "Slides\nDownload PDF file."
   },
   {
+    "objectID": "talks/rag/ben.html#additional-resources",
+    "href": "talks/rag/ben.html#additional-resources",
+    "title": "Beyond the Basics of Retrieval for Augmenting Generation",
+    "section": "Additional Resources",
+    "text": "Additional Resources\nThe following resources were mentioned during the talk:\n\nEasily use and train state of the art late-interaction retrieval methods (ColBERT) in any RAG pipeline. https://github.com/bclavie/RAGatouille\nA lightweight unified API for various reranking models: https://github.com/AnswerDotAI/rerankers\nA Hackers’ Guide to Language Models: https://www.youtube.com/watch?v=jkrNMKz9pWU\nGLiNER: Generalist Model for Named Entity Recognition using Bidirectional - Transformer: https://arxiv.org/abs/2311.08526\nFine-Tuning with Sentence Transformers: https://www.sbert.net/docs/sentence_transformer/training_overview.html\nElastic, Dense vector field type: https://www.elastic.co/guide/en/elasticsearch/reference/current/dense-vector.html"
+  },
+  {
     "objectID": "talks/rag/ben.html#full-transcript",
     "href": "talks/rag/ben.html#full-transcript",
     "title": "Beyond the Basics of Retrieval for Augmenting Generation",
