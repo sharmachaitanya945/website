@@ -105,18 +105,18 @@
     "text": "Jason Liu\n\nJason Liu is a distinguished machine learning consultant known for leading teams to successfully ship AI products. Jason’s technical expertise covers personalization algorithms, search optimization, synthetic data generation, and MLOps systems. His experience includes companies like Stitch Fix, where he created a recommendation framework and observability tools that handled 350 million daily requests. Additional roles have included Meta, NYU, and startups such as Limitless AI and Trunk Tools."
   },
   {
-    "objectID": "team.html#dan-becker",
-    "href": "team.html#dan-becker",
-    "title": "Team",
-    "section": "Dan Becker",
-    "text": "Dan Becker\n\nDan has been working in AI since 2012, when he finished 2nd (out of 1350 teams) in a machine learning competition with a $500,000 prize. He has contributed to open source AI tools like TensorFlow and Keras, worked as a data scientist at Google and lead the product team building AI Development Tools for DataRobot. Over 100,000 people have taken his deep learning courses on Kaggle and DataCamp."
-  },
-  {
     "objectID": "team.html#jeremy-lewi",
     "href": "team.html#jeremy-lewi",
     "title": "Team",
     "section": "Jeremy Lewi",
     "text": "Jeremy Lewi\n\nJeremy Lewi is a Machine Learning platform engineer with over 15 years of experience and expertise in using AI to solve practical business applications. He has built platforms for YouTube, Google Cloud Platform, and Primer, enabling ML Engineers and data scientists to rapidly develop and deploy models into production. He played a pivotal role in developing systems like YouTube’s Video Recommendations and made major contributions to open-source software, including creating Kubeflow, one of the most popular OSS frameworks for ML.\nJeremy is an expert in Cloud services, Kubernetes, MLOps, LLMOps, CICD, IAC, and GitOps."
+  },
+  {
+    "objectID": "team.html#dan-becker",
+    "href": "team.html#dan-becker",
+    "title": "Team",
+    "section": "Dan Becker",
+    "text": "Dan Becker\n\nDan has been working in AI since 2012, when he finished 2nd (out of 1350 teams) in a machine learning competition with a $500,000 prize. He has contributed to open source AI tools like TensorFlow and Keras, worked as a data scientist at Google and lead the product team building AI Development Tools for DataRobot. Over 100,000 people have taken his deep learning courses on Kaggle and DataCamp."
   },
   {
     "objectID": "education/fine_tuning/mistral_ft_sophia.html#chapters",
