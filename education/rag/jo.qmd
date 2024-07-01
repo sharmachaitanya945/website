@@ -1,0 +1,54 @@
+---
+title: Back to Basics for RAG
+date: 2024-07-02
+Speaker: Jo Bergum
+Venue: Mastering LLMs Conf
+metadata-files: 
+  - "../../_subscribe.yml"
+abstract: |
+    Adding context-sensitive information to LLM prompts through retrieval is a popular technique to boost accuracy. This talk will cover the fundamentals of information retrieval (IR) and the failure modes of vector embeddings for retrieval and provide practical solutions to avoid them. Jo demonstrates how to set up simple but effective IR evaluations for your data, allowing faster exploration and systematic approaches to improving retrieval accuracy.
+categories: ["RAG", "llm-conf-2024"]
+---
+
+
+{{< video https://youtu.be/nc0BupOkrhI >}}
+
+
+## Chapters
+
+**[00:00](https://youtu.be/nc0BupOkrhI?t=0) Introduction and Background**
+
+**[01:19](https://youtu.be/nc0BupOkrhI?t=79) RAG and Labeling with Retrieval**
+
+**[03:31](https://youtu.be/nc0BupOkrhI?t=211) Evaluating Information Retrieval Systems**
+
+**[05:54](https://youtu.be/nc0BupOkrhI?t=354) Evaluating Document Relevance**
+
+**[08:22](https://youtu.be/nc0BupOkrhI?t=502) Metrics for Retrieval System Performance**
+
+**[10:11](https://youtu.be/nc0BupOkrhI?t=611) Reciprocal Rank and Industry Metrics**
+
+**[12:41](https://youtu.be/nc0BupOkrhI?t=761) Using Large Language Models for Judging Relevance**
+
+**[14:32](https://youtu.be/nc0BupOkrhI?t=872) Microsoft’s Research on LLMs for Evaluation**
+
+**[17:04](https://youtu.be/nc0BupOkrhI?t=1024) Representational Approaches for Efficient Retrieval**
+
+**[19:14](https://youtu.be/nc0BupOkrhI?t=1154) Sparse and Dense Representations**
+
+**[22:27](https://youtu.be/nc0BupOkrhI?t=1347) Importance of Chunking for High Precision Search**
+
+**[25:55](https://youtu.be/nc0BupOkrhI?t=1555) Comparison of Retrieval Models**
+
+**[27:53](https://youtu.be/nc0BupOkrhI?t=1673) Real World Retrieval: Beyond Text Similarity**
+
+**[29:10](https://youtu.be/nc0BupOkrhI?t=1750) Summary and Key Takeaways**
+
+**[31:07](https://youtu.be/nc0BupOkrhI?t=1867) Resources and Closing Remarks**
+
+## Resources
+
+- [Jo's Twitter](https://x.com/jobergum)
+- [Jo's blog](https://bergum.medium.com/)
+- Talk: [Boosting Ranking Performance w/Minimal Supervision](https://www.youtube.com/watch?v=GDM4cUsvaWg)
+
