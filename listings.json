@@ -6,11 +6,11 @@
     ]
   },
   {
-    "listing": "/education/index.html",
+    "listing": "/education/rag/index.html",
     "items": [
-      "/education/applications/index.html",
-      "/education/fine_tuning/index.html",
-      "/education/rag/index.html"
+      "/education/rag/jo.html",
+      "/education/rag/ben.html",
+      "/education/rag/pawel.html"
     ]
   },
   {
@@ -23,10 +23,11 @@
     ]
   },
   {
-    "listing": "/education/rag/index.html",
+    "listing": "/education/index.html",
     "items": [
-      "/education/rag/jo.html",
-      "/education/rag/ben.html"
+      "/education/applications/index.html",
+      "/education/fine_tuning/index.html",
+      "/education/rag/index.html"
     ]
   }
 ]
