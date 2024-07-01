@@ -6,28 +6,28 @@
     ]
   },
   {
-    "listing": "/education/rag/index.html",
+    "listing": "/education/index.html",
     "items": [
-      "/education/rag/jo.html",
-      "/education/rag/ben.html",
-      "/education/rag/pawel.html"
+      "/education/applications/index.html",
+      "/education/fine_tuning/index.html",
+      "/education/rag/index.html"
     ]
   },
   {
     "listing": "/education/fine_tuning/index.html",
     "items": [
       "/education/fine_tuning/mistral_ft_sophia.html",
+      "/education/fine_tuning/pawel.html",
       "/education/fine_tuning/napkin_math.html",
       "/education/fine_tuning/slaying_ooms.html",
       "/education/fine_tuning/emmanuel.html"
     ]
   },
   {
-    "listing": "/education/index.html",
+    "listing": "/education/rag/index.html",
     "items": [
-      "/education/applications/index.html",
-      "/education/fine_tuning/index.html",
-      "/education/rag/index.html"
+      "/education/rag/jo.html",
+      "/education/rag/ben.html"
     ]
   }
 ]

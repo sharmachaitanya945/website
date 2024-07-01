@@ -314,38 +314,38 @@
     ]
   },
   {
-    "objectID": "education/rag/pawel.html",
-    "href": "education/rag/pawel.html",
+    "objectID": "education/fine_tuning/pawel.html",
+    "href": "education/fine_tuning/pawel.html",
     "title": "Fine Tuning LLMs for Function Calling",
     "section": "",
     "text": "This talk was given by Pawel Garbacki at the Mastering LLMs Conference.",
     "crumbs": [
       "Educational Resources",
-      "RAG",
+      "Fine-Tuning",
       "Fine Tuning LLMs for Function Calling"
     ]
   },
   {
-    "objectID": "education/rag/pawel.html#chapters",
-    "href": "education/rag/pawel.html#chapters",
+    "objectID": "education/fine_tuning/pawel.html#chapters",
+    "href": "education/fine_tuning/pawel.html#chapters",
     "title": "Fine Tuning LLMs for Function Calling",
     "section": "Chapters",
     "text": "Chapters\n00:00 Introduction and Background\n00:29 Functional Tool Calling Overview\n02:23 Single-Turn First Call Objective\n02:51 Forced Call Explanation\n03:28 Parallel Function Calling\n04:00 Nested Calls Explanation\n06:24 Multi-Turn Chat Use Case\n13:54 Selecting Function Call Syntax\n17:44 Full Weight Tuning vs. LoRa Tuning\n19:19 Efficient LoRa Serving\n23:06 Constrained Generation\n26:21 Generic Function Calling Models\n40:02 Q&A",
     "crumbs": [
       "Educational Resources",
-      "RAG",
+      "Fine-Tuning",
       "Fine Tuning LLMs for Function Calling"
     ]
   },
   {
-    "objectID": "education/rag/pawel.html#resources",
-    "href": "education/rag/pawel.html#resources",
+    "objectID": "education/fine_tuning/pawel.html#resources",
+    "href": "education/fine_tuning/pawel.html#resources",
     "title": "Fine Tuning LLMs for Function Calling",
     "section": "Resources",
     "text": "Resources\n\nGlaive Function Calling\nPawell Garbacki’s LinkedIn\nFireworks website",
     "crumbs": [
       "Educational Resources",
-      "RAG",
+      "Fine-Tuning",
       "Fine Tuning LLMs for Function Calling"
     ]
   },
