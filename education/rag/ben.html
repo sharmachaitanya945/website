@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2024-06-12">
 
-<title>Beyond the Basics of Retrieval for Augmenting Generation – Parlance</title>
+<title>Beyond the Basics of RAG – Parlance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,11 +81,11 @@ gtag('config', 'G-QXGQ6F7NKT', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Parlance - Beyond the Basics of Retrieval for Augmenting Generation">
+<meta property="og:title" content="Parlance - Beyond the Basics of RAG">
 <meta property="og:description" content="LLMs are powerful, but have limitations: their knowledge is fixed in their weights, and their context window is limited. Worse: when they don’t know something, they might just make it up. RAG, for Retrieval Augmented Generation, has emerged as a way to mitigate both of those problems. However, implementing RAG effectively is more complex than it seems. The nitty gritty parts of what makes good retrieval good are rarely talked about: No, cosine similarity is, in fact, not all you need. In this workshop, we explore what helps build a robust RAG pipeline, and how simple insights from retrieval research can greatly improve your RAG efforts. We’ll cover key topics like BM25, re-ranking, indexing, domain specificity, evaluation beyond LGTM@few, and filtering. Be prepared for a whole new crowd of incredibly useful buzzwords to enter your vocabulary.">
 <meta property="og:image" content="https://parlance-labs.com/education/rag/parlance_cover.png">
 <meta property="og:site_name" content="Parlance">
-<meta name="twitter:title" content="Parlance - Beyond the Basics of Retrieval for Augmenting Generation">
+<meta name="twitter:title" content="Parlance - Beyond the Basics of RAG">
 <meta name="twitter:description" content="LLMs are powerful, but have limitations: their knowledge is fixed in their weights, and their context window is limited. Worse: when they don’t know something, they might just make it up. RAG, for Retrieval Augmented Generation, has emerged as a way to mitigate both of those problems. However, implementing RAG effectively is more complex than it seems. The nitty gritty parts of what makes good retrieval good are rarely talked about: No, cosine similarity is, in fact, not all you need. In this workshop, we explore what helps build a robust RAG pipeline, and how simple insights from retrieval research can greatly improve your RAG efforts. We’ll cover key topics like BM25, re-ranking, indexing, domain specificity, evaluation beyond LGTM@few, and filtering. Be prepared for a whole new crowd of incredibly useful buzzwords to enter your vocabulary.">
 <meta name="twitter:image" content="https://parlance-labs.com/education/rag/parlance_cover.png">
 <meta name="twitter:creator" content="@HamelHusain">
@@ -129,7 +129,7 @@ gtag('config', 'G-QXGQ6F7NKT', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../education/index.html">Educational Resources</a></li><li class="breadcrumb-item"><a href="../../education/rag/index.html">RAG</a></li><li class="breadcrumb-item"><a href="../../education/rag/ben.html">Beyond the Basics of Retrieval for Augmenting Generation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../education/index.html">Educational Resources</a></li><li class="breadcrumb-item"><a href="../../education/rag/index.html">RAG</a></li><li class="breadcrumb-item"><a href="../../education/rag/ben.html">Beyond the Basics of RAG</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -197,7 +197,7 @@ gtag('config', 'G-QXGQ6F7NKT', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../education/rag/ben.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Beyond the Basics of Retrieval for Augmenting Generation</span></a>
+ <span class="menu-text">Beyond the Basics of RAG</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -273,9 +273,9 @@ Subscribe for updates
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../education/index.html">Educational Resources</a></li><li class="breadcrumb-item"><a href="../../education/rag/index.html">RAG</a></li><li class="breadcrumb-item"><a href="../../education/rag/ben.html">Beyond the Basics of Retrieval for Augmenting Generation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../education/index.html">Educational Resources</a></li><li class="breadcrumb-item"><a href="../../education/rag/index.html">RAG</a></li><li class="breadcrumb-item"><a href="../../education/rag/ben.html">Beyond the Basics of RAG</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Beyond the Basics of Retrieval for Augmenting Generation</h1>
+<h1 class="title">Beyond the Basics of RAG</h1>
   <div class="quarto-categories">
     <div class="quarto-category">RAG</div>
     <div class="quarto-category">llm-conf-2024</div>
@@ -354,7 +354,7 @@ Subscribe for updates
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p><object data="ben.pdf" type="application/pdf" width="100%" height="500"><a href="ben.pdf" download="">Download PDF file.</a></object></p>
+<p><object data="ben.pdf" type="application/pdf" width="100%" height="600"><a href="ben.pdf" download="">Download PDF file.</a></object></p>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
