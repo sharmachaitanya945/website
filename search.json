@@ -254,6 +254,18 @@
     ]
   },
   {
+    "objectID": "education/fine_tuning/kyle.html#slides",
+    "href": "education/fine_tuning/kyle.html#slides",
+    "title": "Fine-tuning when you’ve already deployed LLMs in prod",
+    "section": "Slides",
+    "text": "Slides\nDownload PDF file.",
+    "crumbs": [
+      "Educational Resources",
+      "Fine-Tuning",
+      "Fine-tuning when you've already deployed LLMs in prod"
+    ]
+  },
+  {
     "objectID": "education/fine_tuning/kyle.html#notes",
     "href": "education/fine_tuning/kyle.html#notes",
     "title": "Fine-tuning when you’ve already deployed LLMs in prod",
