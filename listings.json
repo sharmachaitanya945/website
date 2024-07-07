@@ -9,6 +9,7 @@
     "listing": "/education/index.html",
     "items": [
       "/education/applications/index.html",
+      "/education/evals/index.html",
       "/education/fine_tuning/index.html",
       "/education/rag/index.html"
     ]
@@ -22,6 +23,12 @@
       "/education/fine_tuning/napkin_math.html",
       "/education/fine_tuning/slaying_ooms.html",
       "/education/fine_tuning/emmanuel.html"
+    ]
+  },
+  {
+    "listing": "/education/evals/index.html",
+    "items": [
+      "/education/evals/allaire.html"
     ]
   },
   {
