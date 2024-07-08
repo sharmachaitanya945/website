@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-Speaker','listing-Venue','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-Speaker','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-Speaker","listing-Venue","listing-date","listing-description"],
     };
@@ -378,9 +378,6 @@ window.Quarto = {
          <option value="listing-Speaker" data-direction="asc">
           Speaker
         </option>
-         <option value="listing-Venue" data-direction="asc">
-          Venue
-        </option>
          <option value="listing-date-sort" data-direction="asc">
           Date - Oldest
         </option>
@@ -407,9 +404,6 @@ window.Quarto = {
 <a class="sort" data-sort="listing-Speaker" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Speaker</a>
 </th>
 <th>
-<a class="sort" data-sort="listing-Venue" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Venue</a>
-</th>
-<th>
 <a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
 </th>
 <th>
@@ -426,24 +420,18 @@ window.Quarto = {
 <span class="listing-Speaker">Sophia Yang</span>
 </td>
 <td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
-</td>
-<td>
 <span class="listing-date">Jun 11, 2024</span>
 </td>
 <td>
 <span class="listing-description">We will discuss best practices for fine-tuning Mistral models. We will cover topics like: (1) The permissive Mistral ToS and how it’s perfect for fine tuning smaller models from bigger ones (2) How should people collect data (3) Domain specific evals (4) Use cases &amp; examples (5) Common mistakes </span>
 </td>
 </tr>
-<tr data-index="1" data-categories="fine-tuning,llm-conf-2024" data-listing-date-sort="1720422000000" data-listing-file-modified-sort="1720471685700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="50" data-listing-word-count-sort="9827" data-listing-title-sort="Creating, curating, and cleaning data for LLMs" data-listing-filename-sort="daniel.qmd">
+<tr data-index="1" data-categories="fine-tuning,llm-conf-2024" data-listing-date-sort="1720422000000" data-listing-file-modified-sort="1720474040218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="50" data-listing-word-count-sort="9827" data-listing-title-sort="Creating, curating, and cleaning data for LLMs" data-listing-filename-sort="daniel.qmd">
 <td>
 <a href="../../education/fine_tuning/daniel.html" class="title listing-title">Creating, curating, and cleaning data for LLMs</a>
 </td>
 <td>
 <span class="listing-Speaker">Daniel van Strien</span>
-</td>
-<td>
-<span class="listing-Venue">&nbsp;</span>
 </td>
 <td>
 <span class="listing-date">Jul 8, 2024</span>
@@ -460,9 +448,6 @@ window.Quarto = {
 <span class="listing-Speaker">Pawel Garbacki</span>
 </td>
 <td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
-</td>
-<td>
 <span class="listing-date">Jul 2, 2024</span>
 </td>
 <td>
@@ -475,9 +460,6 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-Speaker">Kyle Corbitt</span>
-</td>
-<td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
 </td>
 <td>
 <span class="listing-date">Jul 5, 2024</span>
@@ -494,9 +476,6 @@ window.Quarto = {
 <span class="listing-Speaker">Johno Whitaker</span>
 </td>
 <td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
-</td>
-<td>
 <span class="listing-date">Jul 1, 2024</span>
 </td>
 <td>
@@ -511,9 +490,6 @@ window.Quarto = {
 <span class="listing-Speaker">Mark Saroufim and Jane Xu</span>
 </td>
 <td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
-</td>
-<td>
 <span class="listing-date">Jun 11, 2024</span>
 </td>
 <td>
@@ -526,9 +502,6 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-Speaker">Emmanuel Ameisen</span>
-</td>
-<td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
 </td>
 <td>
 <span class="listing-date">Jul 2, 2024</span>

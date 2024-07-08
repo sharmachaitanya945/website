@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-Speaker','listing-Venue','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-Speaker','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-Speaker","listing-Venue","listing-date","listing-description"],
     };
@@ -378,9 +378,6 @@ window.Quarto = {
          <option value="listing-Speaker" data-direction="asc">
           Speaker
         </option>
-         <option value="listing-Venue" data-direction="asc">
-          Venue
-        </option>
          <option value="listing-date-sort" data-direction="asc">
           Date - Oldest
         </option>
@@ -407,9 +404,6 @@ window.Quarto = {
 <a class="sort" data-sort="listing-Speaker" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Speaker</a>
 </th>
 <th>
-<a class="sort" data-sort="listing-Venue" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Venue</a>
-</th>
-<th>
 <a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
 </th>
 <th>
@@ -426,9 +420,6 @@ window.Quarto = {
 <span class="listing-Speaker">Jo Bergum</span>
 </td>
 <td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
-</td>
-<td>
 <span class="listing-date">Jul 2, 2024</span>
 </td>
 <td>
@@ -441,9 +432,6 @@ window.Quarto = {
 </td>
 <td>
 <span class="listing-Speaker">Ben Clavié</span>
-</td>
-<td>
-<span class="listing-Venue">Mastering LLMs Conf</span>
 </td>
 <td>
 <span class="listing-date">Jun 12, 2024</span>
