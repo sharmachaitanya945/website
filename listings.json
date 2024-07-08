@@ -15,20 +15,21 @@
     ]
   },
   {
+    "listing": "/education/evals/index.html",
+    "items": [
+      "/education/evals/allaire.html"
+    ]
+  },
+  {
     "listing": "/education/fine_tuning/index.html",
     "items": [
       "/education/fine_tuning/mistral_ft_sophia.html",
+      "/education/fine_tuning/daniel.html",
       "/education/fine_tuning/pawel.html",
       "/education/fine_tuning/kyle.html",
       "/education/fine_tuning/napkin_math.html",
       "/education/fine_tuning/slaying_ooms.html",
       "/education/fine_tuning/emmanuel.html"
-    ]
-  },
-  {
-    "listing": "/education/evals/index.html",
-    "items": [
-      "/education/evals/allaire.html"
     ]
   },
   {
