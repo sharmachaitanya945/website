@@ -1,24 +1,9 @@
 [
   {
-    "listing": "/education/applications/index.html",
+    "listing": "/education/rag/index.html",
     "items": [
-      "/education/applications/simon_llm_cli/index.html"
-    ]
-  },
-  {
-    "listing": "/education/index.html",
-    "items": [
-      "/education/applications/index.html",
-      "/education/evals/index.html",
-      "/education/fine_tuning/index.html",
-      "/education/rag/index.html"
-    ]
-  },
-  {
-    "listing": "/education/evals/index.html",
-    "items": [
-      "/education/evals/schoelkopf.html",
-      "/education/evals/allaire.html"
+      "/education/rag/jo.html",
+      "/education/rag/ben.html"
     ]
   },
   {
@@ -34,10 +19,25 @@
     ]
   },
   {
-    "listing": "/education/rag/index.html",
+    "listing": "/education/evals/index.html",
     "items": [
-      "/education/rag/jo.html",
-      "/education/rag/ben.html"
+      "/education/evals/schoelkopf.html",
+      "/education/evals/allaire.html"
+    ]
+  },
+  {
+    "listing": "/education/index.html",
+    "items": [
+      "/education/applications/index.html",
+      "/education/evals/index.html",
+      "/education/fine_tuning/index.html",
+      "/education/rag/index.html"
+    ]
+  },
+  {
+    "listing": "/education/applications/index.html",
+    "items": [
+      "/education/applications/simon_llm_cli/index.html"
     ]
   }
 ]
