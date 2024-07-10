@@ -139,6 +139,18 @@
     ]
   },
   {
+    "objectID": "education/fine_tuning/pawel.html#full-transcript",
+    "href": "education/fine_tuning/pawel.html#full-transcript",
+    "title": "Fine Tuning LLMs for Function Calling",
+    "section": "Full Transcript",
+    "text": "Full Transcript\n\n\n\n\n\n\nExpand to see transcript",
+    "crumbs": [
+      "Educational Resources",
+      "Fine-Tuning",
+      "Fine Tuning LLMs for Function Calling"
+    ]
+  },
+  {
     "objectID": "education/fine_tuning/slaying_ooms.html#chapters",
     "href": "education/fine_tuning/slaying_ooms.html#chapters",
     "title": "Slaying OOMs with PyTorch FSDP and torchao",
@@ -346,6 +358,13 @@
     "title": "Team",
     "section": "Dan Becker",
     "text": "Dan Becker\n\nDan has been working in AI since 2012, when he finished 2nd (out of 1350 teams) in a machine learning competition with a $500,000 prize. He has contributed to open source AI tools like TensorFlow and Keras, worked as a data scientist at Google and lead the product team building AI Development Tools for DataRobot. Over 100,000 people have taken his deep learning courses on Kaggle and DataCamp."
+  },
+  {
+    "objectID": "team.html#shreya-shankar",
+    "href": "team.html#shreya-shankar",
+    "title": "Team",
+    "section": "Shreya Shankar",
+    "text": "Shreya Shankar\n\nShreya is a leading researcher on applied ML and AI systems. She has led extensive research on human-computer interaction for low-code tools to program complex LLM workflows including evals, monitoring and fine-tuning. Her research has been adopted widely and is incorporated into many commercial LLM tools such as Langsmith, Autoblocks, Parea, and more."
   },
   {
     "objectID": "team.html#john-berryman",
